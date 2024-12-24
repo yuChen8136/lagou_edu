@@ -2,8 +2,6 @@ package com.lagou.pojo;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.io.Serializable;
 
