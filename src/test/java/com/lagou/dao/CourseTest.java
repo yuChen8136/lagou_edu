@@ -3,8 +3,12 @@ package com.lagou.dao;
 import com.lagou.dao.impl.CourseDAOImpl;
 import com.lagou.pojo.Course;
 import com.lagou.utils.DateUtils;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import org.junit.Test;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -55,6 +59,21 @@ public class CourseTest {
 
         int i = courseDAO.saveCourseSalesInfo(course);
         System.out.println(i);
+
+    }
+
+    //    更新课程信息
+    @Test
+    public void testUpdateCourse() {
+//        根据id查询课程信息
+        Course course = courseDAO.findCourseById(1);
+
+//        修改课程营销信息
+        course.setCourse_name("50哥");
+        course.setTeacher_name("陈老师");
+
+        int row = courseDAO.updateCourseSelesInfo(course);
+        System.out.println(row);
 
     }
 }

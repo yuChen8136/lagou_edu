@@ -7,7 +7,9 @@ import com.lagou.pojo.Course;
 import com.lagou.service.CourseService;
 import com.lagou.utils.DateUtils;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Auther: username
@@ -41,5 +43,31 @@ public class CourseServiceImpl implements CourseService {
         int result = dao.saveCourseSalesInfo(course);
 
         return result > 0 ? StatusCode.SUCCESS.toString() : StatusCode.FAIL.toString();
+    }
+
+    @Override
+    public Course findCourseById(Integer id) {
+        return dao.findCourseById(id);
+    }
+
+    @Override
+    public String updateCourseSalesInfo(Course course) {
+        int row = dao.updateCourseSelesInfo(course);
+        return row > 0 ? StatusCode.SUCCESS.toString() : StatusCode.FAIL.toString();
+    }
+
+    @Override
+    public Map<String, Integer> updateCourseStatus(Course course) {
+        int row = dao.updateCourseStatus(course);
+        Map<String, Integer> map = new HashMap<>();
+
+        if (row > 0) {
+            if (course.getStatus() == 0) {
+                map.put("status",0);
+            } else {
+                map.put("status",1);
+            }
+        }
+        return map;
     }
 }

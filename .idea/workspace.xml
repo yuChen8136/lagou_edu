@@ -10,26 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4f7a76-cfe1-4bed-b46a-5455600f97cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lagou/base/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lagou/web/servlet/FileUploadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/base/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/base/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lagou/base/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lagou/web/servlet/CourseSelesInfoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lagou/testBeanUtils/TestBeanUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/dao/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/dao/CourseDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/dao/impl/CourseDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/dao/impl/CourseDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/pojo/Course_Lesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/pojo/Course_Lesson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/pojo/Course_Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/pojo/Course_Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/pojo/Course_Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/pojo/Course_Section.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/service/CourseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/utils/DruidUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/utils/DruidUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/web/filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/web/filter/EncodingFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/web/servlet/CourseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/web/servlet/CourseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/druid.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/druid.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/testJson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/testJson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lagou/dao/CourseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lagou/dao/CourseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lagou/service/TestCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lagou/service/TestCourseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +77,8 @@
     "JUnit.CourseTest.testFindCourseById.executor": "Run",
     "JUnit.CourseTest.testFindCourseList.executor": "Run",
     "JUnit.CourseTest.testSaveCourseSalesInfo.executor": "Run",
+    "JUnit.CourseTest.testUpdateCourse.executor": "Run",
+    "JUnit.TestBeanUtils.test01.executor": "Debug",
     "JUnit.TestCourseService.testCourseService.executor": "Run",
     "JUnit.TestFastJson.JSONToJavaBean.executor": "Run",
     "JUnit.TestFastJson.JsonToList.executor": "Run",
@@ -94,21 +86,28 @@
     "JUnit.TestFastJson.javaBeanToJson.executor": "Run",
     "JUnit.TestFastJson.listToJson.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.lagou_edu_home [compile].executor": "Run",
     "Maven.lagou_edu_home [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "Maven.lagou_edu_home [org.apache.maven.plugins:maven-compiler-plugin:3.9.0:compile].executor": "Run",
+    "Maven.lagou_edu_home [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Tomcat Server.Remote.executor": "Debug",
+    "Tomcat Server.Tomcat 10.1.34 remote.executor": "Run",
     "Tomcat Server.Tomcat 10.1.34.executor": "Run",
+    "Tomcat Server.Tomcat Remote.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/sallyyao/Documents/labs/lagou_edu/lagou_edu",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.26206896",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "service.view.auto.scroll.from.source": "true",
+    "service.view.auto.scroll.to.source": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -120,7 +119,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/lagou/utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.34">
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="TomeeConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Remote">
     <configuration name="CourseTest.testFindCourseById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lagou_edu" />
       <extension name="coverage">
@@ -169,129 +175,142 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCourseService.testCourseService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseTest.testUpdateCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lagou_edu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lagou.service.*" />
+          <option name="PATTERN" value="com.lagou.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lagou.service" />
-      <option name="MAIN_CLASS_NAME" value="com.lagou.service.TestCourseService" />
-      <option name="METHOD_NAME" value="testCourseService" />
+      <option name="PACKAGE_NAME" value="com.lagou.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.dao.CourseTest" />
+      <option name="METHOD_NAME" value="testUpdateCourse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFastJson.JsonToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBeanUtils.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lagou_edu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lagou.testJson.*" />
+          <option name="PATTERN" value="com.lagou.testBeanUtils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lagou.testJson" />
-      <option name="MAIN_CLASS_NAME" value="com.lagou.testJson.TestFastJson" />
-      <option name="METHOD_NAME" value="JsonToList" />
+      <option name="PACKAGE_NAME" value="com.lagou.testBeanUtils" />
+      <option name="MAIN_CLASS_NAME" value="com.lagou.testBeanUtils.TestBeanUtils" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 10.1.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.34" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Remote" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 10.1.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="HOST" value="124.223.197.239" />
+      <option name="PORT" value="8099" />
+      <option name="LOCAL" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="lagou_edu:war">
           <settings>
             <option name="CONTEXT_PATH" value="/lagou_edu" />
           </settings>
         </artifact>
-        <file path="%IDEA_RUN:TOMCAT_HOME%/webapps/upload">
+        <file path="/opt/apache-tomcat-10.1.34/webapps/upload">
           <settings>
             <option name="CONTEXT_PATH" value="/upload" />
           </settings>
         </file>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="ae59ac77-6962-477e-b184-21d8e956906e" />
-        <option name="JNDI_PORT" value="1100" />
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="3e1f7c0e-e17f-42ca-9392-0f36404418cf" />
+                    <id>3e1f7c0e-e17f-42ca-9392-0f36404418cf</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="3e1f7c0e-e17f-42ca-9392-0f36404418cf" />
+                    <id>3e1f7c0e-e17f-42ca-9392-0f36404418cf</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="/usr/local/tomcat/webapps" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="83bde69d-efb8-48e6-bee2-2114ecddd16a" />
+                    <id>83bde69d-efb8-48e6-bee2-2114ecddd16a</id>
+                  </TransportTarget>
+                </option>
+                <staging-path>/usr/local/tomcat/webapps</staging-path>
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="83bde69d-efb8-48e6-bee2-2114ecddd16a" />
+                    <id>83bde69d-efb8-48e6-bee2-2114ecddd16a</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="401120ab-d607-4368-bc2c-30c4568672fc" />
+          <host-id>401120ab-d607-4368-bc2c-30c4568672fc</host-id>
+        </data>
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52077" />
+        <option name="DEBUG_PORT" value="60222" />
+        <option name="LOCAL" value="false" />
       </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="lagou_edu:war" />
         </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="lua.app" factoryName="Lua Application">
@@ -305,20 +324,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.CourseTest.testUpdateCourse" />
+      <item itemvalue="JUnit.TestBeanUtils.test01" />
       <item itemvalue="JUnit.CourseTest.testFindCourseById" />
       <item itemvalue="JUnit.CourseTest.testFindCourseList" />
       <item itemvalue="JUnit.CourseTest.testSaveCourseSalesInfo" />
-      <item itemvalue="JUnit.TestCourseService.testCourseService" />
-      <item itemvalue="JUnit.TestFastJson.JsonToList" />
-      <item itemvalue="Tomcat Server.Tomcat 10.1.34" />
+      <item itemvalue="Tomcat Server.Remote" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CourseTest.testUpdateCourse" />
+        <item itemvalue="JUnit.TestBeanUtils.test01" />
         <item itemvalue="JUnit.CourseTest.testSaveCourseSalesInfo" />
         <item itemvalue="JUnit.CourseTest.testFindCourseById" />
         <item itemvalue="JUnit.CourseTest.testFindCourseList" />
-        <item itemvalue="JUnit.TestCourseService.testCourseService" />
-        <item itemvalue="JUnit.TestFastJson.JsonToList" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +352,8 @@
       <workItem from="1734744268328" duration="3361000" />
       <workItem from="1734750418238" duration="49439000" />
       <workItem from="1735010524558" duration="1226000" />
-      <workItem from="1735011763144" duration="4122000" />
+      <workItem from="1735011763144" duration="44716000" />
+      <workItem from="1735172739118" duration="15047000" />
     </task>
     <servers />
   </component>
@@ -354,8 +374,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/lagou/web/servlet/FileUploadServlet.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="13" />
+          <line>36</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lagou/dao/impl/CourseDAOImpl.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lagou/web/servlet/CourseServlet.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

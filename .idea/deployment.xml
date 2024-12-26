@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="124.223.197.239" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="124.223.197.239">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/usr/local/tomcat/webapps/upload" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
